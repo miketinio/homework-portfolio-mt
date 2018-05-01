@@ -8,7 +8,18 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-family: sans-serif;
+	padding-left: 30px;
+}
+
 p {
 	font-family: sans-serif;
+	padding-left: 30px;
+}
+
+nav {
+	font-family: sans-serif;
 	text-align: center;
+	padding: 10px;
 }
