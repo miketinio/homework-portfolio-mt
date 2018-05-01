@@ -13,9 +13,19 @@ h2 {
 	padding-left: 30px;
 }
 
+h3 {
+	font-family: sans-serif;
+	padding-left: 30px;
+}
+
 p {
 	font-family: sans-serif;
 	padding-left: 30px;
+}
+
+li {
+	font-family: sans-serif;
+	margin-left: 40px;
 }
 
 nav {
