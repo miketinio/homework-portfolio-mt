@@ -58,16 +58,15 @@ body {
 
 /* Center the container */
 .container {
-  width: 1024px;
-  margin: 0;
-  border: none;
-
+  width: 800px;
+  margin: 0 auto;
 }
 
 header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background: url(../images/header_bg.jpg) no-repeat center top;
   background-size: cover;
   height: 700px;
+  padding-top: 80px;
 }
 
 section {
@@ -83,7 +82,11 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+}
 
 .button {
   width: 200px;
@@ -119,5 +122,16 @@ h3 {
 }
 
 #testimonial {
-  background-image: url(/images/testimonial_bg.jpg);
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  height: 394px;
+  color: white;
+  font-size: 18px;
+  padding: 80px;
+}
+
+#aside-signup {
+  height: 200px;
+  background-color: #f9e42e;
+  padding-top: 80px;
+  padding-left: 500px;
 }
