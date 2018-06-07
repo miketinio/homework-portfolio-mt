@@ -325,12 +325,10 @@ footer p {
   }
 
   #hero {
-    height: 282px;
+    height: auto;
+    padding: 10px;
   }
 
-  section #hero {
-
-  }
 }
 /*
 =======
