@@ -303,8 +303,8 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
-/*<<<<<<< HEAD
-*/
+/*<<<<<<< HEAD*/
+
 @media only screen and (max-width: 768px){
   header nav {
     width: 100%;
@@ -316,10 +316,20 @@ footer p {
     float: none;
     margin: 0;
     font-size: 16px;
+    text-align: center;
   }
 
   header {
+    height: 117px;
     font-size: 36px;
+  }
+
+  #hero {
+    height: 282px;
+  }
+
+  section #hero {
+
   }
 }
 /*
