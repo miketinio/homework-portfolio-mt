@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: helvetica;
   font-size: 18px;
   line-height: 1.5;
   margin: 0px;
@@ -18,25 +18,20 @@ small {
 }
 
 strong {
-  color: blue;
+  color: #252525;
   font-style: italic;
 }
 
 h1 {
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  color: blue;
-  margin-top: 0;
 }
 
 h2 {
-  color: blue;
+  color: #252525;
 }
 
 h3 {
   font-size: 18px;
-  color: blue;
+  color: #252525;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 42px;
@@ -45,26 +40,20 @@ h3 {
 h4 {
   font-weight: normal;
   margin-bottom: 0;
-  color: blue;
+  color: #252525;
 }
 
-p {
-  font-family: Georgia, serif;
-  margin-top: 0;
-  margin-bottom: 27px;
-  color: blue;
-}
 
 ul {
   list-style: square;
 }
 
 ul p {
-  color: blue;
+  color: #252525;
 }
 
 li {
-  color: blue;
+  color: #252525;
 }
 
 hr {
@@ -74,7 +63,6 @@ hr {
 }
 
 img {
-  /*float: right;*/
   margin-left: 20px;
   margin-bottom: 20px;
   border: 1px solid #ffff;
@@ -82,14 +70,36 @@ img {
   text-align: center
 }
 
-img[alt] {
+nav {
+  color: #252525;
+  text-align: center;
+}
+
+header nav {
   float: right;
 }
 
-nav {
-  color: #ffff;
-  text-align: center;
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 18px;
 }
+
+/*header nav .line{
+  width: 3em;
+  height: .3em;
+  background: #f9e42e;
+  border-radius: 1em;
+  margin-top: .25em;
+}
+header nav .line:first-of-type{
+  margin-top:.7em;
+}
+header nav li:first-child{
+  float:right;
+  display: none;
+  cursor: pointer;
+}*/
 
 #hero {
   height: 700px;
@@ -99,7 +109,9 @@ nav {
 }
 
 .logo {
-
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #252525;
 }
 
 .container {
@@ -108,8 +120,14 @@ nav {
   margin: 0 auto;
 }
 
-#principles {
+#teaser {
+  padding: 50px;
+}
 
+#principles {
+  margin-top: 10px;
+  background-color: #252525;
+  color: white;
 }
 
 #skills {
