@@ -10,7 +10,7 @@ body {
 
 a {
   font-weight: bold;
-  color: rgb(45, 187, 116);
+  color: #252525;
 }
 
 small {
@@ -22,11 +22,8 @@ strong {
   font-style: italic;
 }
 
-h1 {
-}
-
 h2 {
-  color: #252525;
+  font-size: 36px;
 }
 
 h3 {
@@ -43,17 +40,12 @@ h4 {
   color: #252525;
 }
 
+p {
+  font-size: 18px;
+}
 
 ul {
   list-style: square;
-}
-
-ul p {
-  color: #252525;
-}
-
-li {
-  color: #252525;
 }
 
 hr {
@@ -77,6 +69,10 @@ nav {
 
 header nav {
   float: right;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 1.5em;
+  padding-right: 5em;
 }
 
 header nav ul li {
@@ -108,10 +104,19 @@ header nav li:first-child{
   padding-top: 32px;
 }
 
+#hero h2 {
+  font-size: 36px;
+}
+
 .logo {
   text-transform: uppercase;
   font-weight: bold;
   color: #252525;
+}
+
+header .logo {
+  float: left;
+  padding-left: 2em;
 }
 
 .container {
@@ -121,15 +126,49 @@ header nav li:first-child{
 }
 
 #teaser {
-  padding: 50px;
+  padding-top: 12em;
+  padding-left: 8em;
+  color: white;
+  width: 750px;
+  text-align: left;
+  line-height: 28px;
 }
 
-#principles {
+#teaser h2 {
+  padding-bottom: 14px;
+  color: grey;
+}
+
+#teaser p {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+#skills {
   margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 100px;
   background-color: #252525;
   color: white;
 }
 
-#skills {
-  
+#skills h3 {
+  color: grey;
+  padding-left: 8em;
+  padding-bottom: 1em;
+}
+
+.content-box {
+  columns: 3 auto;
+}
+
+
+#work {
+
+}
+
+#work h3 {
+  color: grey;
+  padding-left: 8em;
+  padding-bottom: 1em;
 }
