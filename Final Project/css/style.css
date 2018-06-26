@@ -162,13 +162,21 @@ header .logo {
   columns: 3 auto;
 }
 
-
 #work {
-
+  margin-top: 10px;
+  padding-top: 50px;
+  color: white;
+  width: 750px;
+  text-align: left;
+  line-height: 28px;
 }
 
 #work h3 {
   color: grey;
   padding-left: 8em;
   padding-bottom: 1em;
+}
+
+#mycarousel {
+  padding-left: 3em;
 }
